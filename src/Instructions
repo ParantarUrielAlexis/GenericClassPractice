@@ -1,0 +1,44 @@
+Instructions
+Create a single project with two packages, one called Arithmetic and the other called Map. You may choose to have a main class to test your creation.
+
+Arithmetic
+The Arithmetic class has a constructor that will take two Numbers -- wherein a double, float, int, short, long are considered numbers. These numbers may not be of the same data type.
+In storing them in the class, they should keep their original data types as how they were declared to be i.e. do not typecast them to float or double upon assignment. You may typecast them in operations.
+Example:
+Accepted use of constructors:
+- (int, float)
+- (int, int)
+- (short, long)
+- (double, short)
+- and others
+Not accepted:
+- (char, int)
+- (short, boolean)
+- or any data type that is not a number
+
+The operations are as follows wherein they would perform the operations on those two numbers and return the result:
+- add()
+- subtract()
+- multiply()
+- divide()
+- getMin()
+- getMax()
+
+
+
+
+Map
+Write a generic class called MyMap that accepts two generic objects -- one will act
+as a key and the other a value. You are to store these objects separately in an ArrayList.
+Do not use a HashMap or any Map or any built-in class that is more complicated than an ArrayList
+since it defeats the purpose of this activity.
+
+The following are its methods:
+- put(key, value)
+This adds the key and the value to their corresponding array lists at the last position. If the key already exists, simply change the value with the new value.
+- get(key)
+This returns the value corresponding to this key (i.e. the same index in the value's ArrayList as to where this is was found in the key's ArrayList). This returns null when key does not exist.
+- remove(key)
+This removes the key and value from the array, and returns the said value. This returns null when key does not exist.
+
+Put the entire project in a GitHub repository and submit the link here in this assignment area.
